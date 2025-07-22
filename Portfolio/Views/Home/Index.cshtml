@@ -1,0 +1,219 @@
+﻿@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<nav>
+    <a href="#home">Sobre mi</a>
+    <a href="#skills">Habilidades</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#educacion">Educacion</a>
+    <a href="#contact">Contacto</a>
+</nav>
+
+<section id="home">
+    <div>
+        <img src="~/images/FotoPerfil1.jpg" alt="Foto de perfil">
+        <h1>¡Hola, soy Juan Legal!</h1>
+        <h2>Desarrollador Backend</h2>
+        <p>
+            Soy Juan Legal, desarrollador backend con experiencia en C#, Java y C++, etc.
+            Me apasiona crear aplicaciones en las que siempre intento aplicar las buenas practicas
+            para lograr que las mismas sean robustas, seguras y esten optimizadas.
+            Actualmente busco oportunidades para aplicar mis conocimientos en proyectos reales.
+        </p>
+        <div class="social-icons">
+            <a href="https://github.com/Juanlegall" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/juan-legal-673150298/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="skills" style="background-color: #f4f4f4; ">
+    <div class="container" style="max-width: 1200px; margin: auto;">
+        <h2 class="skills-title">HABILIDADES</h2>
+
+        <!-- Caja blanca que contiene todas las tarjetas -->
+        <div class="skills-box">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C#">
+                    <span>C#</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="C++">
+                    <span>C++</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Java">
+                    <span>Java</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+                    <span>HTML</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+                    <span>CSS</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="SQL Server">
+                    <span>SQL Server</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MySQL">
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/919/919842.png" alt="ASP.NET">
+                    <span>ASP.NET</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Tailwind">
+                    <span>Tailwind</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" alt="Bootstrap">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png" alt="Git">
+                    <span>Git</span>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub">
+                    <span>GitHub</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="projects" style="background-color: #f4f4f4;">
+    <div class="container" style="max-width: 1100px; margin: auto;">
+        <h2 class="projects-title">PROYECTOS</h2>
+        <!-- Proyecto 1 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="~/images/HomeBanking.png" alt="Proyecto 1">
+            </div>
+            <div class="project-content">
+                <h3 class="project-name">Sistema Home Banking</h3>
+                <p>
+                    Sistema web Implementación de sistema de gestión de usuarios con inicio de sesión seguro (RBAC), ABML completo y
+                    funcionalidades diferenciadas según el rol.
+                </p>
+                <div class="project-tags">
+                    <span>Java</span>
+                    <span>MySql</span>
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Tailwind</span>
+                    <span>Bootstrap</span>
+                </div>
+                <a href="https://github.com/Juanlegall/System-Bank-web" target="_blank" class="project-btn">Check it out! ↗</a>
+            </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="~/images/GestionClinica.png" alt="Proyecto 2">
+            </div>
+            <div class="project-content">
+                <h3 class="project-name">Sistema de Gestión Clínica</h3>
+                <p>
+                    Sistema web para la administración de turnos médicos, gestión de pacientes y médicos,
+                    y generación de estadísticas.
+                </p>
+                <div class="project-tags">
+                    <span>ASP.NET</span>
+                    <span>C#</span>
+                    <span>SQL Server</span>
+                    <span>Html</span>
+                    <span>Css</span>
+                    <span>Bootstrap</span>
+                </div>
+                <a href="https://github.com/Juanlegall/Gestion-Clinica-web" target="_blank" class="project-btn">Check it out! ↗</a>
+            </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="project-card">
+            <div class="project-image">
+                
+            </div>
+            <div class="project-content">
+                <h3 class="project-name">Sistema de Ventas Online</h3>
+                <p>
+                    Plataforma para gestión de productos, clientes y ventas de una tienda de indumentaria.
+                </p>
+                <div class="project-tags">
+                    <span>C++</span>
+                </div>
+                <a href="#" class="project-btn">Check it out! ↗</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="educacion" style="background-color: #f4f4f4;">
+    <div class="container" style="max-width: 1100px; margin: auto;">
+        <h2 class="educacion-title">EDUCACION</h2>
+
+        <div class="educacion-card">
+            <div class="educacion-header">
+                <h3>Técnico Universitario en Programación</h3>
+                <span class="date">Marzo 2023 - Julio 2025</span>
+            </div>
+            <p>
+                Graduado de la Tecnicatura Universitaria en Programación en UTN. 
+                Formación orientada al desarrollo de aplicaciones web, bases de datos y buenas prácticas en programación.
+            </p>
+            <ul>
+                <li>Desarrollo de sistema que simula un Home Banking.</li>
+                <li>Desarrollo del sistema de gestión para clínica médica.</li>
+                <li>Proyecto tienda de indumentaria con gestión de ventas y clientes.</li>
+            </ul>
+            </div>
+        <div class="educacion-card">
+            <div class="educacion-header">
+                <h3>Titulo de bachiller en economia y administracion.</h3>
+                <span class="date">Marzo 2017 - Diciemnbre 2022</span>
+            </div>
+            <p>
+                Colegio Cardenal Spinola.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" style="background-color: #f4f4f4; min-height: 50vh;";>
+    <div class="container" style="max-width: 800px; margin: auto; text-align: center;">
+        <h2 class="contact-title">CONTACTO</h2>
+        <p class="contact-subtitle">Podés contactarme a través de los siguientes medios:</p>
+
+        <div class="contact-links">
+            <!-- Email -->
+            <p class="contact-email">
+                📧 <a href="mailto:juanmartinlegal@gmail.com">juanmartinlegal@gmail.com</a>
+            </p>
+
+            <!-- Redes -->
+            <div class="contact-socials">
+                <a href="https://github.com/Juanlegall" target="_blank" title="GitHub">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/juan-legal-673150298/" target="_blank" title="LinkedIn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
