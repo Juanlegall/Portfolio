@@ -12,29 +12,6 @@ Este proyecto está desarrollado con **ASP.NET Core MVC**, diseñado para mostra
 
 ---
 
-## 📂 Estructura del proyecto
-Portfolio/
-│
-├── Controllers/
-├── Views/
-│ ├── Home/
-│ └── Shared/
-├── wwwroot/
-│ ├── css/
-│ ├── js/
-│ └── images/
-│ ├── perfil.jpg
-│ ├── proyecto1.png
-│ ├── proyecto2.png
-│
-└── README.md
-
-yaml
-Copiar
-Editar
-
----
-
 ## 📸 Vista previa
 ![Vista del Portfolio](wwwroot/images/perfil.jpg)
 
@@ -68,14 +45,6 @@ Editar
 Abrir en Visual Studio.
 
 Restaurar dependencias y ejecutar:
-
-bash
-Copiar
-Editar
 dotnet run
 Abrir en el navegador:
-
-arduino
-Copiar
-Editar
 https://localhost:5001
