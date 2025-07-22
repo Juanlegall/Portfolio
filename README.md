@@ -13,7 +13,8 @@ Este proyecto está desarrollado con **ASP.NET Core MVC**, diseñado para mostra
 ---
 
 ## 📸 Vista previa
-![Vista del Portfolio](wwwroot/images/perfil.jpg)
+<img width="1885" height="1031" alt="image" src="https://github.com/user-attachments/assets/5918867d-0478-4c14-9145-28be5a707a73" />
+
 
 ---
 
