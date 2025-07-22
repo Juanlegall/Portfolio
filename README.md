@@ -44,7 +44,7 @@ Editar
 ✔ **Home (Sobre mí):** Presentación personal.  
 ✔ **Skills:** Habilidades técnicas (C#, Java, SQL, etc.).  
 ✔ **Proyectos:** Detalles de mis proyectos con links a GitHub.  
-✔ **Experiencia:** Trayectoria académica y profesional.  
+✔ **educacion:** Trayectoria académica.  
 ✔ **Contacto:** Email, LinkedIn y GitHub.
 
 ---
